@@ -1,3 +1,13 @@
+
+/* image re-size */
+
+img {
+    max-width: 100%;
+}
+
+
+/* Header */
+
 nav {
 
     background-color: white;
@@ -20,11 +30,12 @@ li {
 
 header h1 {
     font-family: Raleway;
-    position: Relative;
+    position: relative;
     color: white;
     text-align: center;
     top: 140px; 
     letter-spacing: 15px;
+
     
     
     
@@ -52,7 +63,7 @@ nav ul li {
     list-style-type: none;
 }
 
-
+/* Main Section/Body */
 main {
     min-width: 100px;
     margin: 0 100px 0 100px;
@@ -71,8 +82,11 @@ section > h4 {
     font-family: Raleway;
     margin: 40px 0 70px 0;
     transform: scaleY(0.9);
-    color: #47545D
+    color: #47545D;
+
+
 }
+
 
 section > h3 {
     font-size: 1em;
@@ -83,9 +97,12 @@ section > h3 {
 }
 
 .cacti img {
-    height: 933px;
+
     object-fit: fill;
 }
+
+
+/* About Section */
 
 p {
     color: #8198A8;
@@ -94,5 +111,44 @@ p {
 .about img {
     align-self: flex-start;
 }
+
+/* footer section */
+
+footer {
+    height: 170px;
+    background-color: #D4F2F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.9em;
+
+}
+
+
+
+hr {
+    color: black;
+    margin-top: 30px;
+}
+
+div.logo{
+    text-align: center;
+    display: relative;
+    
+    
+}
+
+i {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+
 
 
