@@ -1,0 +1,207 @@
+
+/* image re-size */
+
+img {
+    max-width: 100%;
+}
+
+
+/* Header And Navigation*/
+
+nav {
+
+    background-color: white;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: #8198A8;
+    
+}
+
+li {
+    
+    font-family: 'Raleway';
+    
+
+}
+
+header h1 {
+    font-family: 'Raleway';
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 140px; 
+    letter-spacing: 3vh;
+    /* font-weight: 600; */
+
+}
+
+header {
+    background-image: url("./images/blog_header_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+
+    height: 330px;
+    width: 100%;
+    
+}
+
+.title {
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 0px 45px 8px 45px;
+    font-weight: 600;
+    list-style-type: none;
+}
+
+/* Main Section/Body */
+main {
+    min-width: 100px;
+    display: flex;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+section > h4 {
+    font-size: 2.2em;
+    font-family: Raleway;
+    margin: 40px 0 70px 0;
+    transform: scaleY(0.9);
+    color: #47545D;
+    word-wrap: break-word;
+
+
+}
+
+
+section > h3 {
+    font-size: 1em;
+    font-size: 1.5em;
+    font-family: Raleway;
+    margin: 40px 0 0 0;
+    color: #47545D;
+}
+
+.cacti img {
+
+    object-fit: fill;
+}
+
+
+/* About Section */
+
+p {
+    color: #8198A8;
+    font-family: Lato;
+}
+
+.about img {
+    align-self: flex-start;
+}
+
+/* footer  */
+
+footer {
+    height: 200px;
+    background-color: #D4F2F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.9em;
+
+}
+
+
+
+hr {
+    color: black;
+    margin-top: 30px;
+}
+
+
+
+div.logo{
+    text-align: center;
+    display: relative;
+    
+    
+}
+
+i {
+    font-size: 23px;
+    padding-bottom: 30px;
+    margin: 0 15px;
+    
+}
+
+
+
+/* FORM */
+form input {
+    font-family: Raleway;
+    
+}
+
+.button {
+    width: 160px;
+    background-color: #D4F2F5;
+    font-family: Raleway;
+    padding: 7px 5px 5px 5px;
+    border: 1px solid black;
+    margin-left: 8px;
+
+}
+
+.email {
+    width: 250px;
+    font-family: Raleway;
+    padding: 7px 5px 5px 5px;
+    margin-right: 8px;
+    text-align: center;
+    
+}
+@media screen and (max-width: 912px) {
+    section > h4 {
+        font-size: 1.5em;
+    }
+}
+
+
+main {
+
+}
+
+
+
+article {
+    padding: 0 50px;
+}
+
+aside {
+    position: relative;
+    top: 90px;
+    margin-right: 50px;
+}
