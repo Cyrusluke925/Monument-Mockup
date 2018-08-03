@@ -6,7 +6,7 @@ img {
 }
 
 
-/* Header */
+/* Header And Navigation*/
 
 nav {
 
@@ -34,7 +34,7 @@ header h1 {
     color: white;
     text-align: center;
     top: 140px; 
-    letter-spacing: 15px;
+    letter-spacing: 3vh;
 
     
     
@@ -106,6 +106,7 @@ section > h3 {
 
 p {
     color: #8198A8;
+    font-family: Lato;
 }
 
 .about img {
@@ -115,7 +116,7 @@ p {
 /* footer section */
 
 footer {
-    height: 170px;
+    height: 200px;
     background-color: #D4F2F5;
     display: flex;
     flex-direction: column;
@@ -137,6 +138,8 @@ hr {
     margin-top: 30px;
 }
 
+
+
 div.logo{
     text-align: center;
     display: relative;
@@ -145,8 +148,42 @@ div.logo{
 }
 
 i {
-    font-size: 30px;
-    padding-bottom: 20px;
+    font-size: 23px;
+    padding-bottom: 30px;
+    margin: 0 15px;
+    
+}
+
+
+
+/* FORM */
+form input {
+    font-family: Raleway;
+    
+}
+
+.button {
+    width: 160px;
+    background-color: #D4F2F5;
+    font-family: Raleway;
+    padding: 7px 5px 5px 5px;
+    border: 1px solid black;
+    margin-left: 8px;
+
+}
+
+.email {
+    width: 250px;
+    font-family: Raleway;
+    padding: 7px 5px 5px 5px;
+    margin-right: 8px;
+    text-align: center;
+    
+}
+@media screen and (max-width: 912px) {
+    section > h4 {
+        font-size: 1.5em;
+    }
 }
 
 
