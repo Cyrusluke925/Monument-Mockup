@@ -6,11 +6,16 @@
     <title>MONUMENT</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <script src="main.js"></script>
 </head>
+
+
+<!--BEGINNING OF CODE AND THE HEADER-->
+
 <body>
     <header>
 
@@ -27,7 +32,83 @@
     </header>
 <main>
     <h3>FROM THE ARCHIVE</h3>
-</main>
+    <!--------------------------------------------------------->
+    
+    <!-- Three pictures with paragraphs which are flexed -->
+    <article class="archive">
+        <section>
+            <img class ="cactus" src="./images/article_1.jpg">
+            <h4>ISSUE TWENTY - THE SOUTHWEST</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae porta enim. Maecenas bibendum urna sit amet nisi porta, id luctus augue ornare. Nullam pulvinar rutrum nibh quis ultricies. Integer eu quam pharetra neque ornare feugiat ac vel velit. Cras auctor nibh sit amet leo molestie, nec maximus felis posuere. Sed consectetur hendrerit condimentum. In lectus felis, dapibus et posuere eu, semper quis felis. Donec vitae tortor vel ex dignissim lobortis eu vitae metus. Aliquam condimentum id nunc vitae gravida.</p>
+            <button><a href="#">READ MORE</a></button>
+        </section>
+        <section>
+            <img src="./images/article_2.jpg">
+            <h4>ISSUE NINETEEN - CAMPING</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget vestibulum nibh, vitae tincidunt purus. In pharetra ipsum non aliquam lobortis. Nulla malesuada ex ac nibh accumsan, quis viverra magna rhoncus. Fusce vitae egestas elit. Sed sit amet tortor tempus, mattis nibh ut, bibendum nibh. Nullam a convallis eros. Ut vitae ligula nec erat condimentum interdum nec blandit nulla. Sed dui nibh, finibus ut congue ac, dignissim in dolor. Fusce.</p>
+            <button><a href="#">READ MORE</a></button>
+        </section>
+        <section>
+            <img src="./images/article_3.jpg">
+            <h4>ISSUE EIGHTEEN - FOOD</h4>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae ipsum sed mauris dictum interdum. Etiam maximus accumsan ipsum, nec feugiat tellus. Nunc nunc augue, posuere a mi ut, hendrerit sagittis erat. Vivamus sit amet justo eros. Quisque diam enim, vehicula commodo fringilla sit amet, consequat non elit. Vivamus ornare tempor dolor, sit amet pretium nisi feugiat sed. Etiam nec blandit felis. Nam nec est vitae ligula mollis pellentesque vitae ac est. Vivamus elementum diam id libero maximus.</p>
+            <button><a href="#">READ MORE</a></button>
+        </section>
+    </article>
+<!--  ------------------------------------------------------- -->
+<!-- Div section for the "About Magazine" part of page -->
+    <div class="aboutMagazine">
+        <h2>ABOUT THE MAGAZINE</h2>
+        <h3>A LIFESTYLE MAGAZINE CRAFTED WITH LOVE</h3>
+        <p class="aboutP mainSection">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus iaculis sem nulla, eu tempus ligula venenatis dictum. Maecenas iaculis quis mi quis tristique. Aliquam condimentum turpis a tellus efficitur, sit amet accumsan lectus commodo. Nullam pretium, velit ac cursus auctor, nulla ipsum elementum arcu, eget tincidunt dui augue sed ipsum. Nullam sollicitudin lacus a nisl imperdiet, ut ullamcorper nisi commodo.</p>
+        <p class="aboutP">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus placerat diam in semper accumsan. In eu neque dictum, finibus magna vel, placerat sem. Praesent sed magna velit. Phasellus a dui convallis, ultrices ex nec, vehicula diam. In felis erat, scelerisque vel euismod vitae, congue a ligula. Vestibulum mi nisi, laoreet vitae ultrices id, molestie vehicula turpis. Donec bibendum lorem quis.</p>
+        
+    </div>
+    <!-- ---------------------------------------------------- -->
+    <!-- Div containing gallery of photos with ISSUE TWENTY -->
+    <div class= "issueTwenty">
+        <h1>ISSUE TWENTY</h1>
+        <h3>A VISUAL GUIDE TO THE SOUTHWEST</h3>
+
+        <div class="visualGuide">
+            <img class="tl" src="./images/gallery_1.jpg">
+            <img class="tm" src="./images/gallery_4.jpg">
+            <img class="tr" src="./images/gallery_5.jpg">
+            <img class="bl" src="./images/gallery_3.jpg">
+            <img class="bm" src="./images/gallery_2.jpg">
+            <img class="br" src="./images/gallery_6.jpg">
+        </div>
+
+    </div>
+
+    <!-- ---------------------------------------------------- -->
+    <!-- CONTACT FORM  -->
+
+    <div class="getInTouch">
+        <form method="POST">
+            <input class="contact" type="text" placeholder="FULL NAME">
+            <input class="contact" type="text" placeholder="EMAIL">
+            <input class="contact" type="text" placeholder="SUBJECT">
+            <textarea class="contact" type="text" columns="4" placeholder="MESSAGE"></textarea>
+            <input class="contact" type="submit">
+        </form>
+    </div>
+</main>  <!--end of main section-->
+
+<!-- FOOTER -->
+<footer>
+        <div class="logo">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-instagram"></i>
+            <form method="POST">
+                <input class="email" type="text" placeholder="EMAIL ADDRESS" name="email"/>
+                    <input class="button" type="submit" value="SUBSCRIBE">
+            </form>
+        <hr>
+        </div>
+        <p>&copy; 2016 Sarah Holden</p>
+    </footer>
 
 
     

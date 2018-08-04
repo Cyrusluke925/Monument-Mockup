@@ -1,5 +1,5 @@
 
-/* NAVIGATION */
+/* ----------------------NAVIGATION BAR ------------------*/
 
 nav {
     background-color: white;
@@ -19,15 +19,14 @@ nav ul li {
 }
     
 
-
-nav a {
+a {
     text-decoration: none;
     font-family: "Raleway";
     color: #8198A8;
 
 }
 
-/* HEADER */
+/* ----------------------HEADER ----------------------------------*/
 
 header {
     background-image: url("./images/home_header_bg.jpg");
@@ -66,8 +65,261 @@ header h3 {
 
 
 
-
-/* MAIN */
+/* ---------------ARCHIVE W/ 3 Pictures... FIRST SECTION---------------- */
 body {
+    margin: 0 
+}
+
+main h3 {
+    font-family: "Raleway";
+    text-align:center;
+    color: #47545D;
+    margin-top: 5em;
+    margin-bottom: 1.5em;
+}
+
+section {
+    text-align:center;
+}
+
+main h4 {
+    font-family: "Raleway";
+    color: #47545D;
+    font-size: 1.2em;
+
+    
+}
+
+.archive {
+    display: flex;
+    justify-content: space-around;
+}
+
+section p {
+    font-family: "Lato";
+    color: #8198A8;
+    font-size: 1em;
+
+}
+
+
+/* -----------------------READ MORE BUTTONS----------------------- */
+
+button {
+    font-family: "Raleway";
+    padding: 0.6em 2.5em .6em 2.5em;
+    background-color:transparent;
+    border: 0.2em solid #47545D;
+    margin-bottom: 4.5em;
+    
+
+
+}
+
+
+button a {
+    background-color: white;
+    font-weight: 600;
+    
+}
+
+section a {
+    color: #6C767E;
+}
+
+
+
+
+
+.aboutMagazine {
+
+    height: 26.5em;
+    max-width: 100vw;
+    background-color:#D6F1F5;
+    text-align: center;
+}
+
+
+article {
+    margin: 0 4em;
+    
+}
+
+
+div h2 {
+    font-family: "Raleway";
+    color: #4C5A62;
+    font-size: 1.25em;
+    margin-top: 4.5em;
+    padding: 3.5em 0 0 0;
+    text-align: center;
+}
+
+section h3 {
+    margin-top: .5em;
+    color: #4C5A62;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+
+.aboutP {
+    margin: 2em 4em;
+    color: #4C5A62;
+    font-size: 0.9em; 
+}
+
+
+
+
+main section {
+    max-width: 400px;
+}
+
+
+/* -------------------------Photo GALLERY PLUS ISSUE TWENTY------------------------- */
+div h1 {
+    font-family: "Raleway";
+    color: #4c5a62;
+    font-size: 1.29em;
+    margin-top: 4.8em;
+    text-align: center;
+    font-weight: bold;
+}
+div h3 {
+    margin-top: 2em;
+    color: #4c5a62;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.visualGuide {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 0 50px;
+    height: 70em;
+}
+
+div img {
+    max-width: 100%;
+}
+
+.bl {
+    margin-top: 2em;
+}
+
+.bm {
+    position: relative;
+    bottom: 8em;
+}
+
+.br {
+    margin: -11em 0;
+}
+
+.getInTouch {
+    height: 24em;
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+
+}
+
+
+/*------------------------------- GET IN TOUCH FORM ---------------------------*/
+.contact {
+    width: 100%;
+    border:1px solid black;
+    height: 3em;
+    margin: 1em 0;
+    font-family: "Raleway";
+    padding: 0.6em 1.5em;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.getInTouch form {
+    height: 30em;
+}
+
+/* ---------------------FOOTER ----------------------------------------------------*/
+/*-----------------------  FOOTER -------------------------------------------------*/
+/* ---------------------- FOOTER-------------------------------------------------- */
+form input {
+    font-family: Raleway;
+    
+}
+
+.button {
+    width: 160px;
+    background-color: #D4F2F5;
+    font-family: Raleway;
+    padding: 7px 5px 5px 5px;
+    border: 1px solid black;
+    margin-left: 8px;
+
+}
+
+.email {
+    width: 250px;
+    font-family: Raleway;
+    padding: 7px 5px 5px 5px;
+    margin-right: 8px;
+    text-align: center;
+    
+}
+
+
+footer {
+    height: 200px;
+    background-color: #D4F2F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.9em;
+
+}
+
+
+
+hr {
+    color: black;
+    margin-top: 30px;
+}
+
+
+
+
+/* -----------------------------SOCIAL MEDIA LOGOS---------------------------- */
+
+div.logo{
+    text-align: center;
+    display: relative;
+    
+    
+}
+
+i {
+    font-size: 23px;
+    padding-bottom: 30px;
+    margin: 0 15px;
+    
+}
+
+
+
+
+
+/*--------------------------- MEDIA QUERIES --------------------------------*/
+
+@media screen and (max-width: 912px) {
+    section > h4 {
+        font-size: 1.5em;
+    }
 }
