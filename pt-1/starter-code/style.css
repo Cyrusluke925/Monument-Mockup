@@ -26,6 +26,11 @@ a {
 
 }
 
+a:hover {
+    color: #47545D;
+    
+}
+
 /* ----------------------HEADER ----------------------------------*/
 
 header {
@@ -93,7 +98,7 @@ main h4 {
 .archive {
     display: flex;
     justify-content: space-around;
-    -webkit-column-break-inside: avoid;
+    /* -webkit-column-break-inside: avoid; */
     
 }
 
@@ -204,7 +209,7 @@ div h3 {
     padding-left: 16em;
     margin: 64px auto;
     padding-bottom: 0;
-    -webkit-column-break-inside: avoid;
+    /* -webkit-column-break-inside: avoid; */
 }
 
 
@@ -282,7 +287,7 @@ div h3 {
     margin: 3em 20em;
     background-color: black;
     color: white;
-   
+
     
 }
 
@@ -308,7 +313,7 @@ hr {
 
 div.logo {
     text-align: center;
-    display: relative;
+    
 }
 
 i {
@@ -352,13 +357,13 @@ form input {
         
     }
 
-   main section {
+main section {
         max-width: 100%;
         
     }
 .visualGuide {
-   margin-right: 10em;
-   padding-left: 10em;
+     margin-right: 10em;
+     padding-left: 10em;
 
 }
 
@@ -410,11 +415,12 @@ footer {
 @media screen and (max-width: 1034px) {
     .visualGuide {
         text-align: center;
-
     }
 
     .basicInfo {
         margin: 0 11.9em;
         padding-left: 1.7em;
     }
+}
+
 }
