@@ -70,13 +70,15 @@
         <h1>ISSUE TWENTY</h1>
         <h3>A VISUAL GUIDE TO THE SOUTHWEST</h3>
 
+        <div class="wrap">
         <div class="visualGuide">
-            <img class="tl" src="./images/gallery_1.jpg">
-            <img class="tm" src="./images/gallery_4.jpg">
-            <img class="tr" src="./images/gallery_5.jpg">
-            <img class="bl" src="./images/gallery_3.jpg">
-            <img class="bm" src="./images/gallery_2.jpg">
-            <img class="br" src="./images/gallery_6.jpg">
+            <img class="topLeftImg" src="./images/gallery_1.jpg">
+            <img class="bttmLeftImg" src="./images/gallery_3.jpg">
+           <img class="topMiddleImg" src="./images/gallery_4.jpg">
+            <img class="bttmMiddleImg" src="./images/gallery_2.jpg">
+            <img class="topRightImg" src="./images/gallery_5.jpg">
+            <img class="bttmRightImg" src="./images/gallery_6.jpg">
+            </div>
         </div>
 
     </div>
@@ -85,12 +87,14 @@
     <!-- CONTACT FORM  -->
 
     <div class="getInTouch">
-        <form method="POST">
-            <input class="contact" type="text" placeholder="FULL NAME">
-            <input class="contact" type="text" placeholder="EMAIL">
-            <input class="contact" type="text" placeholder="SUBJECT">
-            <textarea class="contact" type="text" columns="4" placeholder="MESSAGE"></textarea>
-            <input class="contact" type="submit">
+        <form method="POST" class="contact">
+            <div class="basicInfo">
+            <input class="name" type="text" placeholder="FULL NAME">
+            <input class="email" type="text" placeholder="EMAIL">
+            <input class="subject" type="text" placeholder="SUBJECT">
+            </div>
+            <textarea class="message" type="text" columns="4" placeholder="MESSAGE"></textarea>
+            <button class="submit" type="submit" value="SUBMIT">SUBMIT</button>
         </form>
     </div>
 </main>  <!--end of main section-->
@@ -102,7 +106,7 @@
             <i class="fab fa-twitter-square"></i>
             <i class="fab fa-instagram"></i>
             <form method="POST">
-                <input class="email" type="text" placeholder="EMAIL ADDRESS" name="email"/>
+                <input id="email" type="text" placeholder="EMAIL ADDRESS" name="email"/>
                     <input class="button" type="submit" value="SUBSCRIBE">
             </form>
         <hr>

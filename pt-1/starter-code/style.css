@@ -93,6 +93,8 @@ main h4 {
 .archive {
     display: flex;
     justify-content: space-around;
+    -webkit-column-break-inside: avoid;
+    
 }
 
 section p {
@@ -178,7 +180,7 @@ main section {
 
 
 /* -------------------------Photo GALLERY PLUS ISSUE TWENTY------------------------- */
-div h1 {
+h1 {
     font-family: "Raleway";
     color: #4c5a62;
     font-size: 1.29em;
@@ -194,132 +196,142 @@ div h3 {
 }
 
 .visualGuide {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 0 50px;
-    height: 70em;
-}
+    display:inline-block;
+    column-count: 3;
+    column-width:350px;
+    column-gap: 15px;
+    max-width:1100px;
+    padding-left: 16em;
 
-div img {
-    max-width: 100%;
-}
-
-.bl {
-    margin-top: 2em;
-}
-
-.bm {
-    position: relative;
-    bottom: 8em;
-}
-
-.br {
-    margin: -11em 0;
-}
-
-.getInTouch {
-    height: 24em;
-    display: flex;
-    flex-direction: column;
-    margin: 0 50px;
-
+    margin: 64px auto;
+    padding-bottom: 0;
+    -webkit-column-break-inside: avoid;
 }
 
 
-/*------------------------------- GET IN TOUCH FORM ---------------------------*/
-.contact {
-    width: 100%;
-    border:1px solid black;
-    height: 3em;
-    margin: 1em 0;
-    font-family: "Raleway";
-    padding: 0.6em 1.5em;
-    font-size: 0.7em;
-    font-weight: bold;
+.visualGuide img {
+    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
+
+
+.topLeftImg {
+    /* margin-left: 9em; */
+}
+
+.bttmLeftImg {
+    /* margin-left: 9em; */
+}
+
+.bttmRightImg {
+   
+}
+
+
+
 
 .getInTouch form {
-    height: 30em;
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
 }
 
-/* ---------------------FOOTER ----------------------------------------------------*/
-/*-----------------------  FOOTER -------------------------------------------------*/
-/* ---------------------- FOOTER-------------------------------------------------- */
-form input {
-    font-family: Raleway;
+.basicInfo {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 2em 15em;
     
 }
 
-.button {
-    width: 160px;
-    background-color: #D4F2F5;
-    font-family: Raleway;
-    padding: 7px 5px 5px 5px;
-    border: 1px solid black;
-    margin-left: 8px;
-
+.name {
+    width: 20%;
+    font-family: "Raleway";
+    padding: 0.6em 2.5em .6em 2.5em;
+    background-color:transparent;
+    border: 0.2em solid #47545D;
 }
 
 .email {
-    width: 250px;
-    font-family: Raleway;
-    padding: 7px 5px 5px 5px;
-    margin-right: 8px;
-    text-align: center;
-    
+    width: 20%;
+    font-family: "Raleway";
+    padding: 0.6em 2.5em .6em 2.5em;
+    background-color:transparent;
+    border: 0.2em solid #47545D;
+}
+
+.subject {
+    width: 20%;
+    font-family: "Raleway";
+    padding: 0.6em 2.5em .6em 2.5em;
+    background-color:transparent;
+    border: 0.2em solid #47545D;
+}
+
+.message {
+    height: 25em;
+    font-family: "Raleway";
+    padding: 0.6em 2.5em .6em 2.5em;
+    background-color:transparent;
+    border: 0.2em solid #47545D;
+    margin: 0 20em;
+}
+
+
+.submit {
+    margin: 3em 20em;
 }
 
 
 footer {
     height: 200px;
-    background-color: #D4F2F5;
+    background-color: #d4f2f5;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     width: 100%;
-
 }
 
 footer p {
     text-align: center;
     font-size: 0.9em;
-
 }
-
-
 
 hr {
     color: black;
-    margin-top: 30px;
+    margin-top: 2em;
 }
 
-
-
-
-/* -----------------------------SOCIAL MEDIA LOGOS---------------------------- */
-
-div.logo{
+div.logo {
     text-align: center;
     display: relative;
-    
-    
 }
 
 i {
-    font-size: 23px;
-    padding-bottom: 30px;
-    margin: 0 15px;
-    
+    font-size: 1.4em;
+    padding-bottom: 2em;
+    margin: 0 1em;
+
 }
 
+form input {
+    font-family: 'Raleway';
 
+}
 
+.button {
+    width: 10em;
+    background-color: #D4f2f5;
+    font-family:"Raleway";
+    padding: 0.5em 0.4em 0.4em 0.4em;
+    border: 0.1em solid black;
+    margin-left: 0.5em;
+}
 
-
-/*--------------------------- MEDIA QUERIES --------------------------------*/
-
-@media screen and (max-width: 912px) {
-    section > h4 {
-        font-size: 1.5em;
-    }
+#email {
+    width: 21em;
+    font-family: "Raleway";
+    padding: 0.5em 0.4em 0.4em 0.4em;
+    margin-right: 0.5em;
+    text-align:center;
 }
