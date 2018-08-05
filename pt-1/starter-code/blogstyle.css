@@ -56,8 +56,12 @@ header {
 }
 
 nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 nav ul li {
@@ -74,13 +78,20 @@ a:hover {
 /* Main Section/Body */
 main {
     min-width: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 
 }
 
 section {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     
 
 }
@@ -89,7 +100,8 @@ section > h4 {
     font-size: 2.2em;
     font-family: Raleway;
     margin: 40px 0 70px 0;
-    transform: scaleY(0.9);
+    -webkit-transform: scaleY(0.9);
+            transform: scaleY(0.9);
     color: #47545D;
     word-wrap: break-word;
 
@@ -107,7 +119,9 @@ section > h3 {
 
 .cacti img {
 
-    object-fit: fill;
+    -o-object-fit: fill;
+
+       object-fit: fill;
 }
 
 
@@ -119,7 +133,8 @@ p {
 }
 
 .about img {
-    align-self: flex-start;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
 }
 
 /* footer  */
@@ -127,9 +142,16 @@ p {
 footer {
     height: 200px;
     background-color: #D4F2F5;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
     width: 100%;
 
 }
